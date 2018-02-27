@@ -2,27 +2,23 @@
   "context-menu": {
     ".tree-view": [
       {
-        "label": "Toggle react-component-folder",
-        "command": "react-component-folder:toggle"
-      },
-      {
-        "label": "Create a component file",
+        "label": "Create index.js",
         "command": "react-component-folder:file-component"
       },
       {
-        "label": "Create a style file",
-        "command": "react-component-folder:file-style"
+        "label": "Create styles.js",
+        "command": "react-component-folder:file-style-js"
       },
       {
-        "label": "Create a styled-component file",
+        "label": "Create styledComponents.js",
         "command": "react-component-folder:file-styled-component"
       },
       {
-        "label": "Create a story file",
+        "label": "Create story.js",
         "command": "react-component-folder:file-story"
       },
       {
-        "label": "Create a test file",
+        "label": "Create test.js",
         "command": "react-component-folder:file-test"
       },
       {

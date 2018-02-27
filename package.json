@@ -42,7 +42,8 @@
     "index.jsTemplate": {
       "description": "Default template of index.js",
       "type": "string",
-      "default": "/**\n * @flow\n * @author: Anesh Parvatha\n */"
+      "default":
+        "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport React, { PureComponent } from 'react'\nimport { View } from 'react-native'\n\nimport styles from './styles'\n\ntype Props = {}\n\nclass $1 extends PureComponent<Props> {\n\trender() {\n\t\treturn (\n\t\t\t<View></View>\n\t\t)\n\t}\n}\n\nexport default $1"
     }
   }
 }
