@@ -23,19 +23,11 @@
       "type": "boolean",
       "default": true
     },
-    "styles.less": {
+    "story.js": {
       "type": "boolean",
       "default": true
     },
-    "styles.scss": {
-      "type": "boolean",
-      "default": true
-    },
-    "index.story.js": {
-      "type": "boolean",
-      "default": true
-    },
-    "index.test.js": {
+    "test.js": {
       "type": "boolean",
       "default": true
     },
@@ -44,6 +36,24 @@
       "type": "string",
       "default":
         "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport React, { PureComponent } from 'react'\nimport { View } from 'react-native'\n\nimport styles from './styles'\n\ntype Props = {}\n\nclass $1 extends PureComponent<Props> {\n\trender() {\n\t\treturn (\n\t\t\t<View></View>\n\t\t)\n\t}\n}\n\nexport default $1"
+    },
+    "styledComponents.jsTemplate": {
+      "description": "Default template of style.js",
+      "type": "string",
+      "default":
+        "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport styled from '@rn/styled-components/native'\n\n"
+    },
+    "style.jsTemplate": {
+      "description": "Default template of style.js",
+      "type": "string",
+      "default":
+        "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport { StyleSheet } from 'react-native'\n\nconst styles = StyleSheet.create({})\n\nexport default styles"
+    },
+    "story.jsTemplate": {
+      "description": "Default template of story.js",
+      "type": "string",
+      "default":
+        "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport React from 'react'\nimport { StyleSheet, View } from 'react-native'\nimport { storiesOf } from '@storybook/react-native'\n\nimport $1 from './index'\n\nconst styles = StyleSheet.create({})\n\nstoriesOf('$1').add('$1', () => (\n\t<$1 />\n))"
     }
   }
 }

@@ -2,6 +2,10 @@
   "context-menu": {
     ".tree-view": [
       {
+        "label": "Create a component folder",
+        "command": "react-component-folder:folder-component"
+      },
+      {
         "label": "Create index.js",
         "command": "react-component-folder:file-component"
       },
@@ -20,10 +24,6 @@
       {
         "label": "Create test.js",
         "command": "react-component-folder:file-test"
-      },
-      {
-        "label": "Create a component folder",
-        "command": "react-component-folder:folder-component"
       }
     ]
   },
