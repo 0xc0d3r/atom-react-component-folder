@@ -55,7 +55,7 @@
       "default":
         "/**\n * @flow\n * @author: $2\n */\n\nimport styled from '@rn/styled-components/native'\n\n"
     },
-    "style.jsTemplate": {
+    "styles.jsTemplate": {
       "description": "Default template of style.js",
       "type": "string",
       "default":

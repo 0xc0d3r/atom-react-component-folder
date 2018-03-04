@@ -2,6 +2,9 @@
   "context-menu": {
     ".tree-view": [
       {
+        "type": "separator"
+      },
+      {
         "label": "Create a component folder",
         "command": "react-component-folder:folder-component"
       },
@@ -24,6 +27,9 @@
       {
         "label": "Create test.js",
         "command": "react-component-folder:file-test"
+      },
+      {
+        "type": "separator"
       }
     ]
   },
