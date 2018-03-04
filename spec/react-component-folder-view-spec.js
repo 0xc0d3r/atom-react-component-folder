@@ -1,4 +1,4 @@
-'use babel'
+// 'use babel'
 
 // import ReactComponentFolderView from '../lib/react-component-folder-view';
 //
@@ -7,4 +7,3 @@
 //     expect('life').toBe('easy');
 //   });
 // });
-
