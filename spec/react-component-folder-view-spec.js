@@ -1,9 +1,10 @@
-'use babel';
+'use babel'
 
-import ReactComponentFolderView from '../lib/react-component-folder-view';
+// import ReactComponentFolderView from '../lib/react-component-folder-view';
+//
+// describe('ReactComponentFolderView', () => {
+//   it('has one valid test', () => {
+//     expect('life').toBe('easy');
+//   });
+// });
 
-describe('ReactComponentFolderView', () => {
-  it('has one valid test', () => {
-    expect('life').toBe('easy');
-  });
-});
