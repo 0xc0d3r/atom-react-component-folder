@@ -1,5 +1,4 @@
-### react-component-folder
+### atom-react-component-folder
 
-## Requirements
-
-*
+* [ ] Support for react components, less and sass files template code generation
+* [ ] Update specs

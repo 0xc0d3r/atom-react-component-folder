@@ -1,5 +1,5 @@
 {
-  "name": "react-component-folder",
+  "name": "atom-react-component-folder",
   "main": "./lib/react-component-folder",
   "version": "0.0.1",
   "description":
@@ -9,7 +9,12 @@
     "email": "xc0d3r.r3b00t@gmail.com",
     "url": "https://github.com/0xc0d3r"
   },
-  "keywords": ["code generation", "code templates", "react", "react native"],
+  "keywords": [
+    "code generation",
+    "code templates",
+    "react component",
+    "react native component"
+  ],
   "repository": "https://github.com/0xc0d3r/atom-react-component-folder",
   "license": "MIT",
   "engines": {
