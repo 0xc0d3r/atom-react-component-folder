@@ -1,16 +1,28 @@
 {
   "name": "react-component-folder",
   "main": "./lib/react-component-folder",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
-  "repository": "https://github.com/atom/react-component-folder",
+  "version": "0.0.1",
+  "description":
+    "An atom plugin to generate a most common react/react-native folder structure and template files",
+  "author": {
+    "name": "Anesh Parvatha",
+    "email": "xc0d3r.r3b00t@gmail.com",
+    "url": "https://github.com/0xc0d3r"
+  },
+  "keywords": ["code generation", "code templates", "react", "react native"],
+  "repository": "https://github.com/0xc0d3r/atom-react-component-folder",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {},
   "configSchema": {
+    "author": {
+      "description":
+        "Author of the code(Default value is operating system's username)",
+      "type": "string",
+      "default": ""
+    },
     "index.js": {
       "type": "boolean",
       "default": true
@@ -35,25 +47,30 @@
       "description": "Default template of index.js",
       "type": "string",
       "default":
-        "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport React, { PureComponent } from 'react'\nimport { View } from 'react-native'\n\nimport styles from './styles'\n\ntype Props = {}\n\nclass $1 extends PureComponent<Props> {\n\trender() {\n\t\treturn (\n\t\t\t<View></View>\n\t\t)\n\t}\n}\n\nexport default $1"
+        "/**\n * @flow\n * @author: $2\n */\n\nimport React, { PureComponent } from 'react'\nimport { View } from 'react-native'\n\nimport styles from './styles'\n\ntype Props = {}\n\nclass $1 extends PureComponent<Props> {\n\trender() {\n\t\treturn (\n\t\t\t<View></View>\n\t\t)\n\t}\n}\n\nexport default $1"
     },
     "styledComponents.jsTemplate": {
       "description": "Default template of style.js",
       "type": "string",
       "default":
-        "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport styled from '@rn/styled-components/native'\n\n"
+        "/**\n * @flow\n * @author: $2\n */\n\nimport styled from '@rn/styled-components/native'\n\n"
     },
     "style.jsTemplate": {
       "description": "Default template of style.js",
       "type": "string",
       "default":
-        "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport { StyleSheet } from 'react-native'\n\nconst styles = StyleSheet.create({})\n\nexport default styles"
+        "/**\n * @flow\n * @author: $2\n */\n\nimport { StyleSheet } from 'react-native'\n\nconst styles = StyleSheet.create({})\n\nexport default styles"
     },
     "story.jsTemplate": {
       "description": "Default template of story.js",
       "type": "string",
       "default":
-        "/**\n * @flow\n * @author: Anesh Parvatha\n */\n\nimport React from 'react'\nimport { StyleSheet, View } from 'react-native'\nimport { storiesOf } from '@storybook/react-native'\n\nimport $1 from './index'\n\nconst styles = StyleSheet.create({})\n\nstoriesOf('$1').add('$1', () => (\n\t<$1 />\n))"
+        "/**\n * @flow\n * @author: $2\n */\n\nimport React from 'react'\nimport { StyleSheet, View } from 'react-native'\nimport { storiesOf } from '@storybook/react-native'\n\nimport $1 from './index'\n\nconst styles = StyleSheet.create({})\n\nstoriesOf('$1').add('$1', () => (\n\t<$1 />\n))"
+    },
+    "test.jsTemplate": {
+      "description": "Default template of test.js",
+      "type": "string",
+      "default": "/**\n * @flow\n * @author: $2\n */\n\n"
     }
   }
 }
