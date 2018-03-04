@@ -21,7 +21,7 @@ Using the TreeView, Right click on any directory to expose the Create a componen
     - HelloWorld.test.js
 ```
 
-_Note:_ After working on few projects, we realised the above component structure is flexible and maintainable.
+_Note:_ After working on few projects, we realised that the above component structure is flexible and maintainable.
 
 ![atom-react-component-folder](https://raw.githubusercontent.com/0xc0d3r/atom-react-component-folder/master/screenshots/demo.gif)
 
